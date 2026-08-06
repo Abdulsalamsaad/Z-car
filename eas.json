@@ -8,14 +8,12 @@
       "distribution": "internal"
     },
     "preview": {
-      "node": "20.19.4",
       "distribution": "internal",
       "android": {
         "buildType": "apk"
       },
       "env": {
-        "NPM_CONFIG_LEGACY_PEER_DEPS": "true",
-        "EAS_BUILD_NO_YARN": "true"
+        "NPM_CONFIG_LEGACY_PEER_DEPS": "true"
       }
     },
     "production": {}
