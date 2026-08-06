@@ -8,14 +8,12 @@
       "distribution": "internal"
     },
     "preview": {
-      "node": "20.10.0",
       "distribution": "internal",
       "android": {
         "buildType": "apk"
       },
       "env": {
-        "NPM_CONFIG_LEGACY_PEER_DEPS": "true",
-        "YARN_CHECKSUM_BEHAVIOR": "ignore"
+        "YARN_IGNORE_ENGINES": "true"
       }
     },
     "production": {}
