@@ -10,10 +10,11 @@
     "preview": {
       "distribution": "internal",
       "android": {
-        "buildType": "apk"
+        "buildType": "apk",
+        "gradleCommand": ":app:assembleRelease"
       },
-      "yarn": {
-        "frozenLockfile": false
+      "env": {
+        "YARN_ENABLE_IMMUTABLE_INSTALLS": "false"
       }
     },
     "production": {}
