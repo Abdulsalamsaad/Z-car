@@ -26,11 +26,6 @@
     "web": {
       "favicon": "./assets/favicon.png"
     },
-    "description": "Carz2",
-    "extra": {
-      "eas": {
-        "projectId": "76a45851-12c2-4238-8618-6885c9cc69b9"
-      }
-    }
+    "description": "Carz2"
   }
 }
